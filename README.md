@@ -17,3 +17,21 @@ body {
 }
 
 https://link.jianshu.com/?t=http://mahua.jser.me/
+
+添加颜色
+
+require 'redcarpet'
+markdown = Redcarpet.new("
+-  手  机：18311485337
+-  Email：candlexg@gmail.com
+-  Q  Q ：952809650
+")
+puts markdown.to_html
+
+
+居中：
+<center>诶嘿</center>
+左对齐：
+<p align="left">诶嘿</p>
+右对齐：
+<p align="right">诶嘿</p>
