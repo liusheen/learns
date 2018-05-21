@@ -29,9 +29,9 @@ markdown = Redcarpet.new("
 puts markdown.to_html
 
 
-居中：
-<center>诶嘿</center>
-左对齐：
-<p align="left">诶嘿</p>
-右对齐：
-<p align="right">诶嘿</p>
+# 居中：
+# <center>诶嘿</center>
+# 左对齐：
+# <p align="left">诶嘿</p>
+# 右对齐：
+# <p align="right">诶嘿</p>
